@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: red;
+
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    height: 60px;
+    list-style: none;
+}
+nav ul li {
+    float: left;
+    height: inherit;
+    padding: 0 600;
+}
+#nav_icon {
+    background-color: blue;
+    padding: 8px;
+    width: 40px;
+}
+
+#nav_signUp {
+    width: 100px;
+    padding: 0 10px;
+    text-align: center;
+    float: right;
+}
+
+#nav_header {
+    width: calc (100% - 150px);
+}
+
+main {
+    clear: both;
+}
+
+#section_form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+#section_form > section {
+    padding: 20px 0;
+}
+
+
+
+#connect_button {
+    padding: 5px;
+    text-align: center;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
+
+.contact_me {
+    position: relative;
+}
+
+#contact_me_text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bar {
+    width: 30%;
+}
+
+#bar_left {
+    float: left;
+}
+
+#bar_right {
+    float: right;
+}
+
+label {
+    display: block;
+}
+
+input {
+    width: 100%;
+    padding: 10px 5px;
+
+}
+
+button {
+    width: 100%;
+    padding: 10px 5px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgb(152, 42, 152);
+    color: white;
+    padding: 70px 20px;
+}
+
+footer ul {
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+
+footer ul li {
+    display: inline;
+    margin-bottom: 10px;
+}
